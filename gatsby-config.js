@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/pixel-test",
   siteMetadata: {
     title: "Altmeta Pixel Demo",
     siteUrl: "http://localhost",
