@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
     <header>
       <title>Altmeta.org Pixel Test</title>
       <Link to="/">
-        <h1 style={headingStyles}>Altmeta.org Pixel Test</h1>
+        <h1 style={headingStyles}>Altmeta.org Pixel Test v0.1</h1>
       </Link>
     </header>
   );
