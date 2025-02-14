@@ -38,16 +38,17 @@ export const Layout: React.FC = ({ children }) => {
         <html lang="en" />
         <script>
           {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            !function(a,h,e,v,n,t,s)
+            {if(a.cbq)return;n=a.cbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
+            if(!a._cbq)a._cbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=h.createElement(e);t.async=!0;
+            t.src=v;s=h.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '600860476089200');
-            fbq('track', 'PageView');
+            'https://d1z8a5ym47iyzm.cloudfront.net/sdk/2417467972497445942/events.js');
+            cbq('setHost', 'https://d1z8a5ym47iyzm.cloudfront.net/');
+            cbq('init', '2417467972497445942');
+            cbq('track', 'PageView');
           `}
         </script>
         <noscript>
